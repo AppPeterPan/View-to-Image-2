@@ -35,7 +35,7 @@ struct ContentView: View {
         HStack {
             Image(name)
                 .resizable()
-                .frame(width: 200, height: 200)
+                .frame(width: 300, height: 300)
                 .scaledToFill()
                 .clipShape(Circle())
             Text(name)
